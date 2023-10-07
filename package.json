@@ -1,0 +1,28 @@
+{
+  "name": "tailwind-modern-scroll",
+  "version": "0.0.1",
+  "description": "It's a customizable scroll bar plugin for the tailwind css framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ismailceylan/tailwind-modern-scroll.git"
+  },
+  "keywords": [
+    "tailwind",
+    "css",
+    "scrollbar",
+    "plugin"
+  ],
+  "dependencies": {
+    "tailwindcss": "^3.3.3"
+  },
+  "author": "Ismail Ceylan",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ismailceylan/tailwind-modern-scroll/issues"
+  },
+  "homepage": "https://github.com/ismailceylan/tailwind-modern-scroll#readme"
+}
