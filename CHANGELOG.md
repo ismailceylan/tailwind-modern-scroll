@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/ismailceylan/tailwind-modern-scroll/compare/v0.0.4...v0.0.5) (2023-10-07)
+
+
+### Features
+
+* min-height support for scroll thumb ([dfc6576](https://github.com/ismailceylan/tailwind-modern-scroll/commit/dfc65763a9718b46e1d224bc5ef8de63a2ad862d))
+
+
+### Bug Fixes
+
+* missing pseudo selector name ([44c86bb](https://github.com/ismailceylan/tailwind-modern-scroll/commit/44c86bbd2154d37baef538338ccf844e7c30aeb7))
+
 ### [0.0.4](https://github.com/ismailceylan/tailwind-modern-scroll/compare/v0.0.3...v0.0.4) (2023-10-07)
 
 
