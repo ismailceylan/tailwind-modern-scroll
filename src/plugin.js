@@ -51,14 +51,8 @@ module.exports = plugin(({ addComponents, matchUtilities, theme }) =>
 			{
 				"--tw-scroll-w": value
 			}
-		})
-	},
-	{
-		values: theme( "width" )
-	});
+		}),
 
-	matchUtilities(
-	{
 		"thumb-w": value =>
 		({
 			"&::-webkit-scrollbar":
@@ -79,14 +73,8 @@ module.exports = plugin(({ addComponents, matchUtilities, theme }) =>
 			{
 				"--tw-scroll-radius": value
 			}
-		})
-	},
-	{
-		values: theme( "borderRadius" )
-	});
+		}),
 
-	matchUtilities(
-	{
 		"thumb-rounded": value =>
 		({
 			"&::-webkit-scrollbar-thumb":
