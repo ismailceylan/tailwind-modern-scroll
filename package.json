@@ -1,10 +1,10 @@
 {
   "name": "tailwind-modern-scroll",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "It's a customizable scroll bar plugin for the tailwind css framework.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release-version": "standard-version"
   },
   "repository": {
     "type": "git",
