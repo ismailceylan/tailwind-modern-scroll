@@ -55,7 +55,7 @@ module.exports = plugin(({ addComponents, matchUtilities, theme }) =>
 
 		"thumb-w": value =>
 		({
-			"&::-webkit-scrollbar":
+			"&::-webkit-scrollbar-thumb":
 			{
 				"--tw-scroll-thumb-w": value
 			}
