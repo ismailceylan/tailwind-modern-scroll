@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/ismailceylan/tailwind-modern-scroll/compare/v0.0.5...v0.0.6) (2023-10-07)
+
+
+### Features
+
+* max-height support ([5948f4d](https://github.com/ismailceylan/tailwind-modern-scroll/commit/5948f4d2806f76c9a0964b502e70f7e9831b1a87))
+
 ### [0.0.5](https://github.com/ismailceylan/tailwind-modern-scroll/compare/v0.0.4...v0.0.5) (2023-10-07)
 
 
