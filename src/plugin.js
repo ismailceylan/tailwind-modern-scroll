@@ -72,6 +72,14 @@ module.exports = plugin(({ addComponents, matchUtilities, theme }) =>
 			{
 				minHeight: value
 			}
+		}),
+		
+		"thumb-max-h": value =>
+		({
+			"&::-webkit-scrollbar-thumb":
+			{
+				maxHeight: value
+			}
 		})
 	},
 	{
