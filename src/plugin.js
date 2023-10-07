@@ -17,7 +17,6 @@ module.exports = plugin(({ addComponents, matchUtilities, theme }) =>
 			backgroundColor: "var(--tw-scroll-thumb-bg,rgb(0 0 0 / 0.3))",
 			width: `var(--tw-scroll-thumb-w,${ theme( "width.2" )})`,
 			borderRadius: `var(--tw-scroll-thumb-radius,${ theme( "borderRadius.lg" )})`,
-			minHeight: theme( "width.24" )
 		}
 	});
 
@@ -63,6 +62,20 @@ module.exports = plugin(({ addComponents, matchUtilities, theme }) =>
 	},
 	{
 		values: theme( "width" )
+	});
+
+	matchUtilities(
+	{
+		"thumb-min-h": value =>
+		({
+			"&::-webkit-scrollbar-thumb":
+			{
+				minHeight: value
+			}
+		})
+	},
+	{
+		values: theme( "height" )
 	});
 
 	matchUtilities(
