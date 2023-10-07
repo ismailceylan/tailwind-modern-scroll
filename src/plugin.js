@@ -14,9 +14,9 @@ module.exports = plugin(({ addComponents, matchUtilities, theme }) =>
 
 		".modern-scroll::-webkit-scrollbar-thumb":
 		{
-			backgroundColor: "var(--tw-scroll-thumb-bg,rgb(0 0 0 / 0.3))",
-			width: `var(--tw-scroll-thumb-w,${ theme( "width.2" )})`,
-			borderRadius: `var(--tw-scroll-thumb-radius,${ theme( "borderRadius.lg" )})`,
+			backgroundColor: "var(--tw-thumb-bg,rgb(0 0 0 / 0.3))",
+			width: `var(--tw-thumb-w,${ theme( "width.2" )})`,
+			borderRadius: `var(--tw-thumb-radius,${ theme( "borderRadius.lg" )})`,
 		}
 	});
 
@@ -34,7 +34,7 @@ module.exports = plugin(({ addComponents, matchUtilities, theme }) =>
 		({
 			"&::-webkit-scrollbar-thumb":
 			{
-				"--tw-scroll-thumb-bg": value
+				"--tw-thumb-bg": value
 			}
 		})
 	},
@@ -56,7 +56,7 @@ module.exports = plugin(({ addComponents, matchUtilities, theme }) =>
 		({
 			"&::-webkit-scrollbar-thumb":
 			{
-				"--tw-scroll-thumb-w": value
+				"--tw-thumb-w": value
 			}
 		})
 	},
@@ -92,7 +92,7 @@ module.exports = plugin(({ addComponents, matchUtilities, theme }) =>
 		({
 			"&::-webkit-scrollbar-thumb":
 			{
-				"--tw-scroll-thumb-radius": value
+				"--tw-thumb-radius": value
 			}
 		})
 	},
