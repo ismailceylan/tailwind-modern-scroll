@@ -7,21 +7,16 @@ module.exports = plugin(({ addComponents, matchUtilities, theme }) =>
 	{
 		".modern-scroll::-webkit-scrollbar":
 		{
-			"--tw-default-scroll-bg": "rgb(0 0 0 / 0.2)",
-			"--tw-default-scroll-w": theme( "width.3" ),
-			"--tw-default-scroll-radius": theme( "borderRadius.lg" ),
-			backgroundColor: "var(--tw-scroll-bg,var(--tw-default-scroll-bg))",
-			width: "var(--tw-scroll-w,var(--tw-default-scroll-w))",
-			borderRadius: "var(--tw-scroll-radius,var(--tw-default-scroll-radius))",
+			backgroundColor: "var(--tw-scroll-bg,rgb(0 0 0 / 0.2))",
+			width: `var(--tw-scroll-w,${ theme( "width.3" )})`,
+			borderRadius: `var(--tw-scroll-radius,${ theme( "borderRadius.lg" )})`,
 		},
 
 		".modern-scroll::-webkit-scrollbar-thumb":
 		{
-			"--tw-default-scroll-thumb-bg": "rgb(0 0 0 / 0.3)",
-			"--tw-default-scroll-thumb-radius": theme( "borderRadius.lg" ),
-			backgroundColor: "var(--tw-scroll-thumb-bg,var(--tw-default-scroll-thumb-bg))",
+			backgroundColor: "var(--tw-scroll-thumb-bg,rgb(0 0 0 / 0.3))",
 			width: theme( "width.2" ),
-			borderRadius: "var(--tw-scroll-thumb-radius,var(--tw-default-scroll-thumb-radius))",
+			borderRadius: `var(--tw-scroll-thumb-radius,${ theme( "borderRadius.lg" )})`,
 			minHeight: theme( "width.24" )
 		}
 	});
