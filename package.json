@@ -4,7 +4,8 @@
   "description": "It's a customizable scroll bar plugin for the tailwind css framework.",
   "main": "index.js",
   "scripts": {
-    "release-version": "standard-version"
+    "release-version": "standard-version",
+    "publish package": "npm publish"
   },
   "repository": {
     "type": "git",
