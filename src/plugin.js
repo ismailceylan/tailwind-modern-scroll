@@ -73,7 +73,7 @@ module.exports = plugin(({ addComponents, matchUtilities, theme }) =>
 		})
 	},
 	{
-		value: theme( "borderRadius" )
+		values: theme( "borderRadius" )
 	});
 
 	matchUtilities(
@@ -87,6 +87,6 @@ module.exports = plugin(({ addComponents, matchUtilities, theme }) =>
 		})
 	},
 	{
-		value: theme( "borderRadius" )
+		values: theme( "borderRadius" )
 	});
 });
