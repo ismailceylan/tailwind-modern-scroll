@@ -1,19 +1,19 @@
 # Tailwind Modern Scrollbars
 This plugin provides dynamic directives that allow you to format scrollbars and scroll thumbs in your projects that use the tailwind framework.
 
-### installation
+### Installation
 First, you have to download the plugin to your project.
 
 `npm i tailwind-modern-scroll -D`
 
-### configuration
+### Configuration
 You need to add the plugin to the main tailwind configuration file.
 
 `your-project/tailwind.config.js`
 ```js
-const  modernScroll  =  require( "tailwind-modern-scroll" );
+const modernScroll = require( "tailwind-modern-scroll" );
 
-module.exports  =
+module.exports =
 {
 	// other configs...
 	
