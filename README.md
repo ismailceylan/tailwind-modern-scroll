@@ -57,6 +57,13 @@ You can only change scroll wrapper width and not thumb's.
 <div class="... scroll-w-10"></div>
 ```
 
+### height
+We can also change the height of the scroll wrapper.
+
+```html
+<div class="... scroll-h-10"></div>
+```
+
 ### thumb height limiting
 You can specify the minimum and maximum height of the slider.
 

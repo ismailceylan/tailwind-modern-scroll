@@ -57,6 +57,20 @@ module.exports = plugin(({ addComponents, matchUtilities, theme }) =>
 
 	matchUtilities(
 	{
+		"scroll-h": value =>
+		({
+			"&::-webkit-scrollbar":
+			{
+				"--tw-scroll-h": value
+			}
+		})
+	},
+	{
+		values: theme( "height" )
+	});
+	
+	matchUtilities(
+	{
 		"thumb-min-h": value =>
 		({
 			"&::-webkit-scrollbar-thumb":
