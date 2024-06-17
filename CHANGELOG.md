@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.8](https://github.com/ismailceylan/tailwind-modern-scroll/compare/v0.0.7...v0.0.8) (2024-06-17)
+
+
+### Features
+
+* add support for change scroll wrapper height ([50f9f85](https://github.com/ismailceylan/tailwind-modern-scroll/commit/50f9f85cedeaa5e077c086b4d665da53be636a24))
+
 ### [0.0.7](https://github.com/ismailceylan/tailwind-modern-scroll/compare/v0.0.6...v0.0.7) (2023-10-07)
 
 ### [0.0.6](https://github.com/ismailceylan/tailwind-modern-scroll/compare/v0.0.5...v0.0.6) (2023-10-07)
