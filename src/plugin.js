@@ -9,6 +9,7 @@ module.exports = plugin(({ addComponents, matchUtilities, theme }) =>
 		{
 			backgroundColor: "var(--tw-scroll-bg,rgb(0 0 0 / 0.2))",
 			width: `var(--tw-scroll-w,${ theme( "width.3" )})`,
+			height: `var(--tw-scroll-h,${ theme( "height.3" )})`,
 			borderRadius: `var(--tw-scroll-radius,${ theme( "borderRadius.lg" )})`,
 		},
 
