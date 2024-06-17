@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.9](https://github.com/ismailceylan/tailwind-modern-scroll/compare/v0.0.8...v0.0.9) (2024-06-17)
+
+
+### Bug Fixes
+
+* unapplied height property ([5cd3818](https://github.com/ismailceylan/tailwind-modern-scroll/commit/5cd3818f71a251b86725ed9301ed7432db638d50))
+
 ### [0.0.8](https://github.com/ismailceylan/tailwind-modern-scroll/compare/v0.0.7...v0.0.8) (2024-06-17)
 
 
